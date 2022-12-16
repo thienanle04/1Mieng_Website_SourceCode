@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: miengweb@host139.vietnix.vn
+Received: from host139.vietnix.vn
+	by host139.vietnix.vn with LMTP
+	id yAG8JIB0gGMQ7yQARps5eg
+	(envelope-from <>)
+	for <miengweb@host139.vietnix.vn>; Fri, 25 Nov 2022 14:53:36 +0700
+Return-path: <>
+Envelope-to: miengweb@host139.vietnix.vn
+Delivery-date: Fri, 25 Nov 2022 14:53:36 +0700
+Received: from mailnull by host139.vietnix.vn with local (Exim 4.95)
+	id 1oyTWi-00AHX7-Hh
+	for miengweb@host139.vietnix.vn;
+	Fri, 25 Nov 2022 14:53:36 +0700
+X-Failed-Recipients: admin@1mieng.website
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@host139.vietnix.vn>
+To: miengweb@host139.vietnix.vn
+References: <L66ZfO6qrpt6q4BkgDtIxs4X7llEbsMv4MirrWQQI@1mieng.website>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1669362816-eximdsn-315107649
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oyTWi-00AHX7-Hh@host139.vietnix.vn>
+Date: Fri, 25 Nov 2022 14:53:36 +0700
+
+--1669362816-eximdsn-315107649
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  admin@1mieng.website
+    No Such User Here
+
+--1669362816-eximdsn-315107649
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; host139.vietnix.vn
+
+Action: failed
+Final-Recipient: rfc822;admin@1mieng.website
+Status: 5.0.0
+
+--1669362816-eximdsn-315107649
+Content-type: message/rfc822
+
+Return-path: <miengweb@host139.vietnix.vn>
+Received: from miengweb by host139.vietnix.vn with local (Exim 4.95)
+	(envelope-from <miengweb@host139.vietnix.vn>)
+	id 1oyTWi-00AHWm-Ec
+	for admin@1mieng.website;
+	Fri, 25 Nov 2022 14:53:36 +0700
+To: admin@1mieng.website
+Subject: =?UTF-8?Q?[1_Mi=E1=BA=BFng]_New_User_Registration?=
+X-PHP-Script: 1mieng.website/wp-admin/user-new.php for 171.253.38.174
+X-PHP-Filename: /home/miengweb/public_html/wp-admin/user-new.php REMOTE_ADDR: 171.253.38.174
+Date: Fri, 25 Nov 2022 07:53:36 +0000
+From: WordPress <wordpress@1mieng.website>
+Message-ID: <L66ZfO6qrpt6q4BkgDtIxs4X7llEbsMv4MirrWQQI@1mieng.website>
+X-Mailer: PHPMailer 6.6.5 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New user registration on your site 1 Miếng:
+
+Username: lxthanh
+
+Email: lxthanh22@clc.fitus.edu.vn
+
+
+--1669362816-eximdsn-315107649--

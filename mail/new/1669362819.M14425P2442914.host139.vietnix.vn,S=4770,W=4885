@@ -1,0 +1,115 @@
+Return-Path: <>
+Delivered-To: miengweb@host139.vietnix.vn
+Received: from host139.vietnix.vn
+	by host139.vietnix.vn with LMTP
+	id YFLAAIN0gGOiRiUARps5eg
+	(envelope-from <>)
+	for <miengweb@host139.vietnix.vn>; Fri, 25 Nov 2022 14:53:39 +0700
+Return-path: <>
+Envelope-to: miengweb@host139.vietnix.vn
+Delivery-date: Fri, 25 Nov 2022 14:53:39 +0700
+Received: from mailnull by host139.vietnix.vn with local (Exim 4.95)
+	id 1oyTWk-00AHZ9-TN
+	for miengweb@host139.vietnix.vn;
+	Fri, 25 Nov 2022 14:53:39 +0700
+X-Failed-Recipients: lxthanh22@clc.fitus.edu.vn
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@host139.vietnix.vn>
+To: miengweb@host139.vietnix.vn
+References: <FWA8QetlCGG5RWGjPTQObkcEMAwLv4qZlIevP34xok@1mieng.website>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1669362818-eximdsn-147863781
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oyTWk-00AHZ9-TN@host139.vietnix.vn>
+Date: Fri, 25 Nov 2022 14:53:38 +0700
+
+--1669362818-eximdsn-147863781
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  lxthanh22@clc.fitus.edu.vn
+    host ASPMX.L.GOOGLE.COM [64.233.187.27]
+    SMTP error from remote mail server after end of data:
+    550-5.7.1 [103.200.23.139] The IP you're using to send mail is not authorized to
+    550-5.7.1 send email directly to our servers. Please use the SMTP relay at your
+    550-5.7.1 service provider instead. Learn more at
+    550 5.7.1  https://support.google.com/mail/?p=NotAuthorizedError bw13-20020a056a00408d00b00572f3be59f6si2963557pfb.136 - gsmtp
+
+--1669362818-eximdsn-147863781
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; host139.vietnix.vn
+
+Action: failed
+Final-Recipient: rfc822;lxthanh22@clc.fitus.edu.vn
+Status: 5.0.0
+Remote-MTA: dns; ASPMX.L.GOOGLE.COM
+Diagnostic-Code: smtp; 550-5.7.1 [103.200.23.139] The IP you're using to send mail is not authorized to
+ 550-5.7.1 send email directly to our servers. Please use the SMTP relay at your
+ 550-5.7.1 service provider instead. Learn more at
+ 550 5.7.1  https://support.google.com/mail/?p=NotAuthorizedError bw13-20020a056a00408d00b00572f3be59f6si2963557pfb.136 - gsmtp
+
+--1669362818-eximdsn-147863781
+Content-type: message/rfc822
+
+Return-path: <miengweb@host139.vietnix.vn>
+Received: from miengweb by host139.vietnix.vn with local (Exim 4.95)
+	(envelope-from <miengweb@host139.vietnix.vn>)
+	id 1oyTWi-00AHWP-8U
+	for lxthanh22@clc.fitus.edu.vn;
+	Fri, 25 Nov 2022 14:53:36 +0700
+To: lxthanh22@clc.fitus.edu.vn
+Subject: =?UTF-8?Q?Welcome_to_1_Mi=E1=BA=BFng!?=
+X-PHP-Script: 1mieng.website/wp-admin/user-new.php for 171.253.38.174
+X-PHP-Filename: /home/miengweb/public_html/wp-admin/user-new.php REMOTE_ADDR: 171.253.38.174
+Date: Fri, 25 Nov 2022 07:53:36 +0000
+From: =?UTF-8?Q?1_Mi=E1=BA=BFng?= <admin@1mieng.website>
+Message-ID: <FWA8QetlCGG5RWGjPTQObkcEMAwLv4qZlIevP34xok@1mieng.website>
+X-Mailer: PHPMailer 6.6.5 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+
+				<body style="background: #f2f2f2;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">
+
+				
+<div style="max-width: 560px;padding: 20px;background: #ffffff;border-radius: 5px;margin:40px auto;font-family: Open Sans,Helvetica,Arial;font-size: 15px;color: #666;">
+
+	<div style="color: #444444;font-weight: normal;">
+		<div style="text-align: center;font-weight:600;font-size:26px;padding: 10px 0;border-bottom: solid 3px #eeeeee;">1 Miếng</div>
+		
+		<div style="clear:both"></div>
+	</div>
+	
+	<div style="padding: 0 30px 30px 30px;border-bottom: 3px solid #eeeeee;">
+
+		<div style="padding: 30px 0;font-size: 24px;text-align: center;line-height: 40px;">Thank you for signing up!<span style="display: block;">Your account is now active.</span></div>
+
+		<div style="padding: 10px 0 50px 0;text-align: center;"><a href="http://1mieng.website/login/" style="background: #555555;color: #fff;padding: 12px 30px;text-decoration: none;border-radius: 3px;letter-spacing: 0.3px;">Login to our site</a></div>
+		
+		<div style="padding:20px;">If you have any problems, please contact us at <a href="mailto:admin@1mieng.website" style="color: #3ba1da;text-decoration: none">admin@1mieng.website</a></div>
+		
+		
+	</div>
+	
+	<div style="color: #999;padding: 20px 30px">
+
+		<div style="">Thank you!</div>
+		<div style="">The <a href="http://1mieng.website" style="color: #3ba1da;text-decoration: none;">1 Miếng</a> Team</div>
+		
+	</div>
+
+</div>
+				</body>
+				</html>
+
+			
+
+
+--1669362818-eximdsn-147863781--

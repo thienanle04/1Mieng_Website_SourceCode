@@ -1,0 +1,75 @@
+Return-Path: <>
+Delivered-To: miengweb@host139.vietnix.vn
+Received: from host139.vietnix.vn
+	by host139.vietnix.vn with LMTP
+	id YKiSKCh1gGOiRiUARps5eg
+	(envelope-from <>)
+	for <miengweb@host139.vietnix.vn>; Fri, 25 Nov 2022 14:56:24 +0700
+Return-path: <>
+Envelope-to: miengweb@host139.vietnix.vn
+Delivery-date: Fri, 25 Nov 2022 14:56:24 +0700
+Received: from mailnull by host139.vietnix.vn with local (Exim 4.95)
+	id 1oyTZQ-00ALNY-HL
+	for miengweb@host139.vietnix.vn;
+	Fri, 25 Nov 2022 14:56:24 +0700
+X-Failed-Recipients: nhnam22@clc.fitus.edu.vn
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@host139.vietnix.vn>
+To: miengweb@host139.vietnix.vn
+References: <XLRGg2bXrdBEvcKL40RRCsoSZvyeycfhsTzkA2KxRw@1mieng.website>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1669362984-eximdsn-1780668922
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oyTZQ-00ALNY-HL@host139.vietnix.vn>
+Date: Fri, 25 Nov 2022 14:56:24 +0700
+
+--1669362984-eximdsn-1780668922
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  nhnam22@clc.fitus.edu.vn
+    Domain 1mieng.website has exceeded the max defers and failures per hour (5/5 (100%)) allowed. Message discarded.
+
+--1669362984-eximdsn-1780668922
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; host139.vietnix.vn
+
+Action: failed
+Final-Recipient: rfc822;nhnam22@clc.fitus.edu.vn
+Status: 5.0.0
+
+--1669362984-eximdsn-1780668922
+Content-type: message/rfc822
+
+Return-path: <miengweb@host139.vietnix.vn>
+Received: from miengweb by host139.vietnix.vn with local (Exim 4.95)
+	(envelope-from <miengweb@host139.vietnix.vn>)
+	id 1oyTZQ-00ALNA-CM
+	for nhnam22@clc.fitus.edu.vn;
+	Fri, 25 Nov 2022 14:56:24 +0700
+To: nhnam22@clc.fitus.edu.vn
+Subject: =?UTF-8?Q?[1_Mi=E1=BA=BFng]_Login_Details?=
+X-PHP-Script: 1mieng.website/wp-admin/user-new.php for 171.253.38.174
+X-PHP-Filename: /home/miengweb/public_html/wp-admin/user-new.php REMOTE_ADDR: 171.253.38.174
+Date: Fri, 25 Nov 2022 07:56:24 +0000
+From: WordPress <wordpress@1mieng.website>
+Message-ID: <XLRGg2bXrdBEvcKL40RRCsoSZvyeycfhsTzkA2KxRw@1mieng.website>
+X-Mailer: PHPMailer 6.6.5 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Username: nhnam
+
+To set your password, visit the following address:
+
+http://1mieng.website/wp-login.php?action=rp&key=5fd5nJXhys6zEBhJIYId&login=nhnam
+
+http://1mieng.website/wp-login.php
+
+
+--1669362984-eximdsn-1780668922--

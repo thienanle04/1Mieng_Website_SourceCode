@@ -1,0 +1,93 @@
+Return-Path: <>
+Delivered-To: miengweb@host139.vietnix.vn
+Received: from host139.vietnix.vn
+	by host139.vietnix.vn with LMTP
+	id EFBUHrSGgGMVAyoARps5eg
+	(envelope-from <>)
+	for <miengweb@host139.vietnix.vn>; Fri, 25 Nov 2022 16:11:16 +0700
+Return-path: <>
+Envelope-to: miengweb@host139.vietnix.vn
+Delivery-date: Fri, 25 Nov 2022 16:11:16 +0700
+Received: from mailnull by host139.vietnix.vn with local (Exim 4.95)
+	id 1oyUjs-00Bbjr-Ee
+	for miengweb@host139.vietnix.vn;
+	Fri, 25 Nov 2022 16:11:16 +0700
+X-Failed-Recipients: ltan22@clc.fitus.edu.vn
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@host139.vietnix.vn>
+To: miengweb@host139.vietnix.vn
+References: <E1oyUjq-00Bbix-KN@host139.vietnix.vn>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1669367476-eximdsn-1250920833
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oyUjs-00Bbjr-Ee@host139.vietnix.vn>
+Date: Fri, 25 Nov 2022 16:11:16 +0700
+
+--1669367476-eximdsn-1250920833
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ltan22@clc.fitus.edu.vn
+    host ASPMX.L.GOOGLE.COM [142.250.157.26]
+    SMTP error from remote mail server after end of data:
+    550-5.7.1 [103.200.23.139] Messages missing a valid address in From:
+    header, or
+    550 5.7.1 having no From: header, are not accepted. oc12-20020a17090b1c0c00b00213032c1b7esi8066096pjb.13 - gsmtp
+
+--1669367476-eximdsn-1250920833
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; host139.vietnix.vn
+
+Action: failed
+Final-Recipient: rfc822;ltan22@clc.fitus.edu.vn
+Status: 5.0.0
+Remote-MTA: dns; ASPMX.L.GOOGLE.COM
+Diagnostic-Code: smtp; 550-5.7.1 [103.200.23.139] Messages missing a valid address in From: header, or
+ 550 5.7.1 having no From: header, are not accepted. oc12-20020a17090b1c0c00b00213032c1b7esi8066096pjb.13 - gsmtp
+
+--1669367476-eximdsn-1250920833
+Content-type: message/rfc822
+
+Return-path: <miengweb@host139.vietnix.vn>
+Received: from miengweb by host139.vietnix.vn with local (Exim 4.95)
+	(envelope-from <miengweb@host139.vietnix.vn>)
+	id 1oyUjq-00Bbix-KN
+	for ltan22@clc.fitus.edu.vn;
+	Fri, 25 Nov 2022 16:11:14 +0700
+To: ltan22@clc.fitus.edu.vn
+Subject: =?UTF-8?B?TmV3IEluc3RhbGxhdGlvbiBvZiBXb3JkUHJlc3M=?=
+X-PHP-Script: host139.vietnix.vn/usr/local/cpanel/whostmgr/docroot/cgi/softaculous/enduser/index.live.php for 115.72.27.250
+X-PHP-Originating-Script: 0:mail_functions.php
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+From: Softaculous <>
+Reply-To: 
+X-Mailer: PHP/7.4.30
+Message-Id: <E1oyUjq-00Bbix-KN@host139.vietnix.vn>
+Date: Fri, 25 Nov 2022 16:11:14 +0700
+
+A new installation of WordPress 6.1.1 has been completed. The details of the installation are shown below:
+Path : /home/miengweb/public_html
+URL : http://1mieng.website
+Admin URL : http://1mieng.website/wp-admin/
+Admin Username : admin
+Admin Password : ********
+Admin Email: admin@1mieng.website
+MySQL Database : miengweb_wp439
+MySQL DB User : miengweb_wp439
+MySQL DB Host : localhost
+MySQL DB Password : ********
+Update Notification : Enabled
+Auto Upgrade : Disabled
+Automated Backups : Disabled
+Time of Installation : November 25, 2022, 4:11 pm
+
+If you wish to unsubscribe from such emails, go to your Control Panel -> Softaculous -> Email Settings
+
+
+--1669367476-eximdsn-1250920833--

@@ -1,0 +1,91 @@
+Return-Path: <>
+Delivered-To: miengweb@host139.vietnix.vn
+Received: from host139.vietnix.vn
+	by host139.vietnix.vn with LMTP
+	id IEVdEKAAh2MAAxoARps5eg
+	(envelope-from <>)
+	for <miengweb@host139.vietnix.vn>; Wed, 30 Nov 2022 14:05:04 +0700
+Return-path: <>
+Envelope-to: miengweb@host139.vietnix.vn
+Delivery-date: Wed, 30 Nov 2022 14:05:04 +0700
+Received: from mailnull by host139.vietnix.vn with local (Exim 4.95)
+	id 1p0H9U-007bm2-76
+	for miengweb@host139.vietnix.vn;
+	Wed, 30 Nov 2022 14:05:04 +0700
+X-Failed-Recipients: hpnghia22@clc.fitus.edu.vn
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@host139.vietnix.vn>
+To: miengweb@host139.vietnix.vn
+References: <Cebe9DZiCaeD1fSCN2GsLVNdYAus1AntuZ1s5dEQ8@1mieng.website>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1669791904-eximdsn-272688551
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1p0H9U-007bm2-76@host139.vietnix.vn>
+Date: Wed, 30 Nov 2022 14:05:04 +0700
+
+--1669791904-eximdsn-272688551
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  hpnghia22@clc.fitus.edu.vn
+    host ASPMX.L.GOOGLE.COM [142.250.4.26]
+    SMTP error from remote mail server after end of data:
+    550-5.7.1 [103.200.23.139] The IP you're using to send mail is not authorized to
+    550-5.7.1 send email directly to our servers. Please use the SMTP relay at your
+    550-5.7.1 service provider instead. Learn more at
+    550 5.7.1  https://support.google.com/mail/?p=NotAuthorizedError e2-20020a170902d38200b001868d5fc27csi527057pld.254 - gsmtp
+
+--1669791904-eximdsn-272688551
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; host139.vietnix.vn
+
+Action: failed
+Final-Recipient: rfc822;hpnghia22@clc.fitus.edu.vn
+Status: 5.0.0
+Remote-MTA: dns; ASPMX.L.GOOGLE.COM
+Diagnostic-Code: smtp; 550-5.7.1 [103.200.23.139] The IP you're using to send mail is not authorized to
+ 550-5.7.1 send email directly to our servers. Please use the SMTP relay at your
+ 550-5.7.1 service provider instead. Learn more at
+ 550 5.7.1  https://support.google.com/mail/?p=NotAuthorizedError e2-20020a170902d38200b001868d5fc27csi527057pld.254 - gsmtp
+
+--1669791904-eximdsn-272688551
+Content-type: message/rfc822
+
+Return-path: <miengweb@host139.vietnix.vn>
+Received: from miengweb by host139.vietnix.vn with local (Exim 4.95)
+	(envelope-from <miengweb@host139.vietnix.vn>)
+	id 1p0H9S-007bXh-AI
+	for hpnghia22@clc.fitus.edu.vn;
+	Wed, 30 Nov 2022 14:05:02 +0700
+To: hpnghia22@clc.fitus.edu.vn
+Subject: =?UTF-8?Q?[1_Mi=E1=BA=BFng]_Password_Changed?=
+X-PHP-Script: 1mieng.website/wp-admin/user-edit.php for 27.67.133.221
+X-PHP-Filename: /home/miengweb/public_html/wp-admin/user-edit.php REMOTE_ADDR: 27.67.133.221
+Date: Wed, 30 Nov 2022 07:05:01 +0000
+From: WordPress <wordpress@1mieng.website>
+Message-ID: <Cebe9DZiCaeD1fSCN2GsLVNdYAus1AntuZ1s5dEQ8@1mieng.website>
+X-Mailer: PHPMailer 6.6.5 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Hi nghiax,
+
+This notice confirms that your password was changed on 1 Miếng.
+
+If you did not change your password, please contact the Site Administrator at
+admin@1mieng.website
+
+This email has been sent to hpnghia22@clc.fitus.edu.vn
+
+Regards,
+All at 1 Miếng
+https://1mieng.website
+
+
+--1669791904-eximdsn-272688551--

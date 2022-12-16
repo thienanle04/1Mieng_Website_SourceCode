@@ -1,0 +1,161 @@
+Return-Path: <>
+Delivered-To: miengweb@host139.vietnix.vn
+Received: from host139.vietnix.vn
+	by host139.vietnix.vn with LMTP
+	id mEqMBH1AmWP75SgARps5eg
+	(envelope-from <>)
+	for <miengweb@host139.vietnix.vn>; Wed, 14 Dec 2022 10:18:21 +0700
+Return-path: <>
+Envelope-to: miengweb@host139.vietnix.vn
+Delivery-date: Wed, 14 Dec 2022 10:18:21 +0700
+Received: from mailnull by host139.vietnix.vn with local (Exim 4.95)
+	id 1p5IHl-00BHRn-0b
+	for miengweb@host139.vietnix.vn;
+	Wed, 14 Dec 2022 10:18:21 +0700
+X-Failed-Recipients: nghiahophuoc47@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@host139.vietnix.vn>
+To: miengweb@host139.vietnix.vn
+References: <Jc9imkndtjBGBPPX994NzjvGNe3iHztIEwebLR7XcNM@1mieng.website>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1670987901-eximdsn-793945203
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1p5IHl-00BHRn-0b@host139.vietnix.vn>
+Date: Wed, 14 Dec 2022 10:18:21 +0700
+
+--1670987901-eximdsn-793945203
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  nghiahophuoc47@gmail.com
+    host gmail-smtp-in.l.google.com [74.125.24.26]
+    SMTP error from remote mail server after end of data:
+    550-5.7.1 [103.200.23.139] The IP you're using to send mail is not authorized to
+    550-5.7.1 send email directly to our servers. Please use the SMTP relay at your
+    550-5.7.1 service provider instead. Learn more at
+    550 5.7.1  https://support.google.com/mail/?p=NotAuthorizedError 194-20020a6218cb000000b0057791522cb6si13831815pfy.275 - gsmtp
+
+--1670987901-eximdsn-793945203
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; host139.vietnix.vn
+
+Action: failed
+Final-Recipient: rfc822;nghiahophuoc47@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.7.1 [103.200.23.139] The IP you're using to send mail is not authorized to
+ 550-5.7.1 send email directly to our servers. Please use the SMTP relay at your
+ 550-5.7.1 service provider instead. Learn more at
+ 550 5.7.1  https://support.google.com/mail/?p=NotAuthorizedError 194-20020a6218cb000000b0057791522cb6si13831815pfy.275 - gsmtp
+
+--1670987901-eximdsn-793945203
+Content-type: message/rfc822
+
+Return-path: <miengweb@host139.vietnix.vn>
+Received: from miengweb by host139.vietnix.vn with local (Exim 4.95)
+	(envelope-from <miengweb@host139.vietnix.vn>)
+	id 1p5IHi-00BHQo-H8
+	for nghiahophuoc47@gmail.com;
+	Wed, 14 Dec 2022 10:18:18 +0700
+To: nghiahophuoc47@gmail.com
+Subject: =?UTF-8?Q?Your_1_Mi=E1=BA=BFng_account_has_been_created!?=
+X-PHP-Script: 1mieng.website/index.php for 171.248.168.217
+X-PHP-Filename: /home/miengweb/public_html/index.php REMOTE_ADDR: 171.248.168.217
+Date: Wed, 14 Dec 2022 03:18:18 +0000
+From: =?UTF-8?Q?1_Mi=E1=BA=BFng?= <admin@1mieng.website>
+Reply-To: =?UTF-8?Q?1_Mi=E1=BA=BFng?= <admin@1mieng.website>
+Message-ID: <Jc9imkndtjBGBPPX994NzjvGNe3iHztIEwebLR7XcNM@1mieng.website>
+X-Mailer: PHPMailer 6.6.5 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>1 Miếng</title>
+	</head>
+	<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="padding: 0;">
+		<div id="wrapper" dir="ltr" style="background-color: #f7f7f7; margin: 0; padding: 70px 0; width: 100%; -webkit-text-size-adjust: none;" bgcolor="#f7f7f7" width="100%">
+			<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+				<tr>
+					<td align="center" valign="top">
+						<div id="template_header_image">
+													</div>
+						<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_container" style="background-color: #fff; border: 1px solid #dedede; box-shadow: 0 1px 4px rgba(0,0,0,.1); border-radius: 3px;" bgcolor="#fff">
+							<tr>
+								<td align="center" valign="top">
+									<!-- Header -->
+									<table border="0" cellpadding="0" cellspacing="0" width="100%" id="template_header" style='background-color: #7f54b3; color: #fff; border-bottom: 0; font-weight: bold; line-height: 100%; vertical-align: middle; font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif; border-radius: 3px 3px 0 0;' bgcolor="#7f54b3">
+										<tr>
+											<td id="header_wrapper" style="padding: 36px 48px; display: block;">
+												<h1 style='font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif; font-size: 30px; font-weight: 300; line-height: 150%; margin: 0; text-align: left; text-shadow: 0 1px 0 #9976c2; color: #fff; background-color: inherit;' bgcolor="inherit">Welcome to 1 Miếng</h1>
+											</td>
+										</tr>
+									</table>
+									<!-- End Header -->
+								</td>
+							</tr>
+							<tr>
+								<td align="center" valign="top">
+									<!-- Body -->
+									<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_body">
+										<tr>
+											<td valign="top" id="body_content" style="background-color: #fff;" bgcolor="#fff">
+												<!-- Content -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%">
+													<tr>
+														<td valign="top" style="padding: 48px 48px 32px;">
+															<div id="body_content_inner" style='color: #636363; font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif; font-size: 14px; line-height: 150%; text-align: left;' align="left">
+
+<p style="margin: 0 0 16px;">Hi nghiahophuoc47,</p>
+<p style="margin: 0 0 16px;">Thanks for creating an account on 1 Miếng. Your username is <strong>nghiahophuoc47</strong>. You can access your account area to view orders, change your password, and more at: <a href="https://1mieng.website/my-account/" rel="nofollow" style="color: #7f54b3; font-weight: normal; text-decoration: underline;">https://1mieng.website/my-account/</a></p>
+		<p style="margin: 0 0 16px;"><a href="https://1mieng.website/my-account/lost-password/?action=newaccount&amp;key=QYI8JAwiwSjmxbr0QbrP&amp;login=nghiahophuoc47" style="color: #7f54b3; font-weight: normal; text-decoration: underline;">Click here to set your new password.</a></p>
+
+<p style="margin: 0 0 16px;">We look forward to seeing you soon.</p>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- End Content -->
+											</td>
+										</tr>
+									</table>
+									<!-- End Body -->
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" valign="top">
+						<!-- Footer -->
+						<table border="0" cellpadding="10" cellspacing="0" width="600" id="template_footer">
+							<tr>
+								<td valign="top" style="padding: 0; border-radius: 6px;">
+									<table border="0" cellpadding="10" cellspacing="0" width="100%">
+										<tr>
+											<td colspan="2" valign="middle" id="credit" style='border-radius: 6px; border: 0; color: #8a8a8a; font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif; font-size: 12px; line-height: 150%; text-align: center; padding: 24px 0;' align="center">
+												<p style="margin: 0 0 16px;">1 Miếng — Built with <a href="https://woocommerce.com" style="color: #7f54b3; font-weight: normal; text-decoration: underline;">WooCommerce</a></p>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+						<!-- End Footer -->
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
+
+
+--1670987901-eximdsn-793945203--

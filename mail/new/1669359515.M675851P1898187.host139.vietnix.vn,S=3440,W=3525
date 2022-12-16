@@ -1,0 +1,85 @@
+Return-Path: <>
+Delivered-To: miengweb@host139.vietnix.vn
+Received: from host139.vietnix.vn
+	by host139.vietnix.vn with LMTP
+	id wHMwKJtngGPL9hwARps5eg
+	(envelope-from <>)
+	for <miengweb@host139.vietnix.vn>; Fri, 25 Nov 2022 13:58:35 +0700
+Return-path: <>
+Envelope-to: miengweb@host139.vietnix.vn
+Delivery-date: Fri, 25 Nov 2022 13:58:35 +0700
+Received: from mailnull by host139.vietnix.vn with local (Exim 4.95)
+	id 1oySfT-008ReQ-K6
+	for miengweb@host139.vietnix.vn;
+	Fri, 25 Nov 2022 13:58:35 +0700
+X-Failed-Recipients: lethienan1106@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@host139.vietnix.vn>
+To: miengweb@host139.vietnix.vn
+References: <Fg6eUZMtcMcrcv6dk1rCoqudThDhPx18Hf58RLHI@1mieng.website>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1669359515-eximdsn-295300834
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oySfT-008ReQ-K6@host139.vietnix.vn>
+Date: Fri, 25 Nov 2022 13:58:35 +0700
+
+--1669359515-eximdsn-295300834
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  lethienan1106@gmail.com
+    host gmail-smtp-in.l.google.com [74.125.204.27]
+    SMTP error from remote mail server after end of data:
+    550-5.7.1 [103.200.23.139] The IP you're using to send mail is not authorized to
+    550-5.7.1 send email directly to our servers. Please use the SMTP relay at your
+    550-5.7.1 service provider instead. Learn more at
+    550 5.7.1  https://support.google.com/mail/?p=NotAuthorizedError rm10-20020a17090b3eca00b00200435da17asi1689847pjb.128 - gsmtp
+
+--1669359515-eximdsn-295300834
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; host139.vietnix.vn
+
+Action: failed
+Final-Recipient: rfc822;lethienan1106@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.7.1 [103.200.23.139] The IP you're using to send mail is not authorized to
+ 550-5.7.1 send email directly to our servers. Please use the SMTP relay at your
+ 550-5.7.1 service provider instead. Learn more at
+ 550 5.7.1  https://support.google.com/mail/?p=NotAuthorizedError rm10-20020a17090b3eca00b00200435da17asi1689847pjb.128 - gsmtp
+
+--1669359515-eximdsn-295300834
+Content-type: message/rfc822
+
+Return-path: <miengweb@host139.vietnix.vn>
+Received: from miengweb by host139.vietnix.vn with local (Exim 4.95)
+	(envelope-from <miengweb@host139.vietnix.vn>)
+	id 1oySfR-008RVk-E6
+	for lethienan1106@gmail.com;
+	Fri, 25 Nov 2022 13:58:33 +0700
+To: lethienan1106@gmail.com
+Subject: =?UTF-8?Q?[1_Mi=E1=BA=BFng]_Login_Details?=
+X-PHP-Script: 1mieng.website/wp-admin/user-new.php for 171.253.38.174
+X-PHP-Filename: /home/miengweb/public_html/wp-admin/user-new.php REMOTE_ADDR: 171.253.38.174
+Date: Fri, 25 Nov 2022 06:58:33 +0000
+From: WordPress <wordpress@1mieng.website>
+Message-ID: <Fg6eUZMtcMcrcv6dk1rCoqudThDhPx18Hf58RLHI@1mieng.website>
+X-Mailer: PHPMailer 6.6.5 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Username: lethienan1106
+
+To set your password, visit the following address:
+
+http://1mieng.website/wp-login.php?action=rp&key=tdylX78HZnMX66ArOt5t&login=lethienan1106
+
+http://1mieng.website/wp-login.php
+
+
+--1669359515-eximdsn-295300834--

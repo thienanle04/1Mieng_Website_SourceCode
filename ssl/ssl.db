@@ -1,0 +1,86 @@
+--- 
+files: 
+  certificate: 
+    www_1mieng_website_b8c51_52da1_1677146801_be4ca14a3db7727f66671514af6c7fe7: 
+      created: '1669374400'
+      domains: 
+        - 1mieng.website
+        - www.1mieng.website
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “1mieng.website” 1669374400.0
+      id: www_1mieng_website_b8c51_52da1_1677146801_be4ca14a3db7727f66671514af6c7fe7
+      is_self_signed: 0
+      issuer.commonName: R3
+      issuer.organizationName: Let's Encrypt
+      key_algorithm: rsaEncryption
+      modulus: b8c5181a5dfbacd3b39bf872a2ad78cf9628865e2782a99c85d26a143f86e3bef2b65d63d934a70175ff4e23f398bdec13ad581b74f396bcf2bf739adbc52eb75658122a3384305e6c9cc426c451a900a6befb920eacff7ee8e96e7931c8d64052d770681eb6bb9da1016995ac797568ec0066f286a48a3e83fdaf45688bf192bddb4676e1475c99c4c795e6089ad67affab80f56672cd3ba18528689e1cff097f89c6bcb6ec07ca4273d7d6ebf0e021fdb4ce2e93697f52f1d7fc75c29a974c56ad3794884292030c57eeb395009eb23637f086d049ad0bcf7fb3aa18177975cda71304cce495d502ef0dff59913665a8d50ddd6372aeaad61f966687852da1
+      modulus_length: 2048
+      not_after: '1677146801'
+      not_before: '1669370802'
+      serial: 03f052ef02e4797bc461874d0c1a4199b9cf
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: www.1mieng.website
+      validation_type: dv
+    www_1mieng_website_be4f3_7437b_1677143005_7e12d6c189cdd60f4ca3673f81e5cd36: 
+      created: '1669370605'
+      domains: 
+        - www.1mieng.website
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “1mieng.website”
+      id: www_1mieng_website_be4f3_7437b_1677143005_7e12d6c189cdd60f4ca3673f81e5cd36
+      is_self_signed: 0
+      issuer.commonName: R3
+      issuer.organizationName: Let's Encrypt
+      key_algorithm: rsaEncryption
+      modulus: be4f382397f866ce371576fe3b8eb2de66fb61d7b6503184c1cfd675fad9a9fbcf7f70c69c283abd5f95283b5fc161c57f9cf1ba33089dacce0f8e4237629988a1b053673b87fc4af7e0acececa6cc54db49cd9b218fcf7d210c3bdca5ce4c13a8a8e3f257b49c601c2701c061312779e643471028c2ded41e103fdb226954710b349d4abd89f4c7b855b911e2c557160697e5ef1aa8a39e8052981361c633420fc28200b433cf72a6e287d0e1f36335d928da6fab09c7bb094d9e21ee2ef1363c6b1c9800a1f66d3b0b28ea3c1e258080662d68e881ed1f75f20d91eb2304df37f127298099e3ec9636de40a0f28c8f8d812c5a6be770767d5c45e40d97437b
+      modulus_length: 2048
+      not_after: '1677143005'
+      not_before: '1669367006'
+      serial: 043e8cce76d24971009f766736a32c9883d7
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: www.1mieng.website
+      validation_type: dv
+  key: 
+    b8c51_52da1_2175e612b938611fb49c67bf49c17e9b: 
+      created: '1669374400'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “1mieng.website” 1669374400.0
+      id: b8c51_52da1_2175e612b938611fb49c67bf49c17e9b
+      key_algorithm: rsaEncryption
+      modulus: b8c5181a5dfbacd3b39bf872a2ad78cf9628865e2782a99c85d26a143f86e3bef2b65d63d934a70175ff4e23f398bdec13ad581b74f396bcf2bf739adbc52eb75658122a3384305e6c9cc426c451a900a6befb920eacff7ee8e96e7931c8d64052d770681eb6bb9da1016995ac797568ec0066f286a48a3e83fdaf45688bf192bddb4676e1475c99c4c795e6089ad67affab80f56672cd3ba18528689e1cff097f89c6bcb6ec07ca4273d7d6ebf0e021fdb4ce2e93697f52f1d7fc75c29a974c56ad3794884292030c57eeb395009eb23637f086d049ad0bcf7fb3aa18177975cda71304cce495d502ef0dff59913665a8d50ddd6372aeaad61f966687852da1
+      modulus_length: 2048
+    be4f3_7437b_1a390f18dd8a046b781d21f0da427709: 
+      created: '1669370605'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “1mieng.website”
+      id: be4f3_7437b_1a390f18dd8a046b781d21f0da427709
+      key_algorithm: rsaEncryption
+      modulus: be4f382397f866ce371576fe3b8eb2de66fb61d7b6503184c1cfd675fad9a9fbcf7f70c69c283abd5f95283b5fc161c57f9cf1ba33089dacce0f8e4237629988a1b053673b87fc4af7e0acececa6cc54db49cd9b218fcf7d210c3bdca5ce4c13a8a8e3f257b49c601c2701c061312779e643471028c2ded41e103fdb226954710b349d4abd89f4c7b855b911e2c557160697e5ef1aa8a39e8052981361c633420fc28200b433cf72a6e287d0e1f36335d928da6fab09c7bb094d9e21ee2ef1363c6b1c9800a1f66d3b0b28ea3c1e258080662d68e881ed1f75f20d91eb2304df37f127298099e3ec9636de40a0f28c8f8d812c5a6be770767d5c45e40d97437b
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      b8c5181a5dfbacd3b39bf872a2ad78cf9628865e2782a99c85d26a143f86e3bef2b65d63d934a70175ff4e23f398bdec13ad581b74f396bcf2bf739adbc52eb75658122a3384305e6c9cc426c451a900a6befb920eacff7ee8e96e7931c8d64052d770681eb6bb9da1016995ac797568ec0066f286a48a3e83fdaf45688bf192bddb4676e1475c99c4c795e6089ad67affab80f56672cd3ba18528689e1cff097f89c6bcb6ec07ca4273d7d6ebf0e021fdb4ce2e93697f52f1d7fc75c29a974c56ad3794884292030c57eeb395009eb23637f086d049ad0bcf7fb3aa18177975cda71304cce495d502ef0dff59913665a8d50ddd6372aeaad61f966687852da1: 
+        www_1mieng_website_b8c51_52da1_1677146801_be4ca14a3db7727f66671514af6c7fe7: ~
+      be4f382397f866ce371576fe3b8eb2de66fb61d7b6503184c1cfd675fad9a9fbcf7f70c69c283abd5f95283b5fc161c57f9cf1ba33089dacce0f8e4237629988a1b053673b87fc4af7e0acececa6cc54db49cd9b218fcf7d210c3bdca5ce4c13a8a8e3f257b49c601c2701c061312779e643471028c2ded41e103fdb226954710b349d4abd89f4c7b855b911e2c557160697e5ef1aa8a39e8052981361c633420fc28200b433cf72a6e287d0e1f36335d928da6fab09c7bb094d9e21ee2ef1363c6b1c9800a1f66d3b0b28ea3c1e258080662d68e881ed1f75f20d91eb2304df37f127298099e3ec9636de40a0f28c8f8d812c5a6be770767d5c45e40d97437b: 
+        www_1mieng_website_be4f3_7437b_1677143005_7e12d6c189cdd60f4ca3673f81e5cd36: ~
+    subject.commonName: 
+      www.1mieng.website: 
+        www_1mieng_website_b8c51_52da1_1677146801_be4ca14a3db7727f66671514af6c7fe7: ~
+        www_1mieng_website_be4f3_7437b_1677143005_7e12d6c189cdd60f4ca3673f81e5cd36: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “1mieng.website”: www_1mieng_website_be4f3_7437b_1677143005_7e12d6c189cdd60f4ca3673f81e5cd36
+      Cert for “1mieng.website” 1669374400.0: www_1mieng_website_b8c51_52da1_1677146801_be4ca14a3db7727f66671514af6c7fe7
+  key: 
+    friendly_name: 
+      Key for “1mieng.website”: be4f3_7437b_1a390f18dd8a046b781d21f0da427709
+      Key for “1mieng.website” 1669374400.0: b8c51_52da1_2175e612b938611fb49c67bf49c17e9b
+    modulus:ecdsa_curve_name:ecdsa_public: 
+      b8c5181a5dfbacd3b39bf872a2ad78cf9628865e2782a99c85d26a143f86e3bef2b65d63d934a70175ff4e23f398bdec13ad581b74f396bcf2bf739adbc52eb75658122a3384305e6c9cc426c451a900a6befb920eacff7ee8e96e7931c8d64052d770681eb6bb9da1016995ac797568ec0066f286a48a3e83fdaf45688bf192bddb4676e1475c99c4c795e6089ad67affab80f56672cd3ba18528689e1cff097f89c6bcb6ec07ca4273d7d6ebf0e021fdb4ce2e93697f52f1d7fc75c29a974c56ad3794884292030c57eeb395009eb23637f086d049ad0bcf7fb3aa18177975cda71304cce495d502ef0dff59913665a8d50ddd6372aeaad61f966687852da1: b8c51_52da1_2175e612b938611fb49c67bf49c17e9b
+      be4f382397f866ce371576fe3b8eb2de66fb61d7b6503184c1cfd675fad9a9fbcf7f70c69c283abd5f95283b5fc161c57f9cf1ba33089dacce0f8e4237629988a1b053673b87fc4af7e0acececa6cc54db49cd9b218fcf7d210c3bdca5ce4c13a8a8e3f257b49c601c2701c061312779e643471028c2ded41e103fdb226954710b349d4abd89f4c7b855b911e2c557160697e5ef1aa8a39e8052981361c633420fc28200b433cf72a6e287d0e1f36335d928da6fab09c7bb094d9e21ee2ef1363c6b1c9800a1f66d3b0b28ea3c1e258080662d68e881ed1f75f20d91eb2304df37f127298099e3ec9636de40a0f28c8f8d812c5a6be770767d5c45e40d97437b: be4f3_7437b_1a390f18dd8a046b781d21f0da427709

@@ -1,0 +1,110 @@
+Return-Path: <>
+Delivered-To: miengweb@host139.vietnix.vn
+Received: from host139.vietnix.vn
+	by host139.vietnix.vn with LMTP
+	id MJ/bBCh1gGMQ7yQARps5eg
+	(envelope-from <>)
+	for <miengweb@host139.vietnix.vn>; Fri, 25 Nov 2022 14:56:24 +0700
+Return-path: <>
+Envelope-to: miengweb@host139.vietnix.vn
+Delivery-date: Fri, 25 Nov 2022 14:56:24 +0700
+Received: from mailnull by host139.vietnix.vn with local (Exim 4.95)
+	id 1oyTZP-00ALML-WD
+	for miengweb@host139.vietnix.vn;
+	Fri, 25 Nov 2022 14:56:24 +0700
+X-Failed-Recipients: admin@1mieng.website
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@host139.vietnix.vn>
+To: miengweb@host139.vietnix.vn
+References: <agEa3VJgNh7nyVK3bReeRBmJWJwfU4nqVdjahSL1E@1mieng.website>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1669362983-eximdsn-136175791
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oyTZP-00ALML-WD@host139.vietnix.vn>
+Date: Fri, 25 Nov 2022 14:56:23 +0700
+
+--1669362983-eximdsn-136175791
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  admin@1mieng.website
+    No Such User Here
+
+--1669362983-eximdsn-136175791
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; host139.vietnix.vn
+
+Action: failed
+Final-Recipient: rfc822;admin@1mieng.website
+Status: 5.0.0
+
+--1669362983-eximdsn-136175791
+Content-type: message/rfc822
+
+Return-path: <miengweb@host139.vietnix.vn>
+Received: from miengweb by host139.vietnix.vn with local (Exim 4.95)
+	(envelope-from <miengweb@host139.vietnix.vn>)
+	id 1oyTZP-00ALM0-T0
+	for admin@1mieng.website;
+	Fri, 25 Nov 2022 14:56:23 +0700
+To: admin@1mieng.website
+Subject: =?UTF-8?Q?[1_Mi=E1=BA=BFng]_New_user_account?=
+X-PHP-Script: 1mieng.website/wp-admin/user-new.php for 171.253.38.174
+X-PHP-Filename: /home/miengweb/public_html/wp-admin/user-new.php REMOTE_ADDR: 171.253.38.174
+Date: Fri, 25 Nov 2022 07:56:23 +0000
+From: =?UTF-8?Q?1_Mi=E1=BA=BFng?= <admin@1mieng.website>
+Message-ID: <agEa3VJgNh7nyVK3bReeRBmJWJwfU4nqVdjahSL1E@1mieng.website>
+X-Mailer: PHPMailer 6.6.5 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+
+				<body style="background: #f2f2f2;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">
+
+				
+
+<div style="max-width: 560px;padding: 20px;background: #ffffff;border-radius: 5px;margin:40px auto;font-family: Open Sans,Helvetica,Arial;font-size: 15px;color: #666;">
+
+	<div style="color: #444444;font-weight: normal;">
+		<div style="text-align: center;font-weight:600;font-size:26px;padding: 10px 0;border-bottom: solid 3px #eeeeee;">1 Miếng</div>
+		
+		<div style="clear:both"></div>
+	</div>
+	
+	<div style="padding: 0 30px 30px 30px;border-bottom: 3px solid #eeeeee;">
+
+		<div style="padding: 30px 0;font-size: 24px;text-align: center;line-height: 40px;">nhnam has just created an account on 1 Miếng.</span></div>
+
+		<div style="padding: 10px 0 50px 0;text-align: center;">To view their profile click here: <a href="http://1mieng.website/user/nhnam/" style="color: #3ba1da;text-decoration: none;">http://1mieng.website/user/nhnam/</a></div>
+		
+		<div style="padding: 0 0 15px 0;">
+		
+			<div style="background: #eee;color: #444;padding: 12px 15px; border-radius: 3px;font-weight: bold;font-size: 16px;">Here is the submitted registration form:<br /><br />
+				<p><label>Date Submitted: </label><span>(empty)</span></p><p><label>Form: </label><span>(empty)</span></p>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div style="color: #999;padding: 20px 30px">
+		
+		<div style="">Thank you!</div>
+		<div style="">The <a href="http://1mieng.website" style="color: #3ba1da;text-decoration: none;">1 Miếng</a> Team</div>
+		
+	</div>
+
+</div>
+				</body>
+				</html>
+
+			
+
+
+--1669362983-eximdsn-136175791--
